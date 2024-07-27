@@ -156,6 +156,7 @@ function animate() {
   player.velocity.x = 0
   if (keys.d.pressed) {
     player.switchSprite('Run')
+    console.log(keys.d);
     player.velocity.x = 2
     player.lastDirection = 'right'
     player.shouldPanCameraToTheLeft({ canvas, camera })
