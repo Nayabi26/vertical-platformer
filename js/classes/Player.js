@@ -1,3 +1,6 @@
+import { Sprite } from "./Sprite.js";
+import { gravity } from "../../index.js";
+
 class Player extends Sprite {
   constructor({
     position,
@@ -261,3 +264,4 @@ class Player extends Sprite {
     }
   }
 }
+export {Player}

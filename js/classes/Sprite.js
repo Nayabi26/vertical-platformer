@@ -34,7 +34,7 @@ class Sprite {
       height: this.image.height,
     }
 
-    c.drawImage(
+   /* c.drawImage(
       this.image,
       cropbox.position.x,
       cropbox.position.y,
@@ -44,7 +44,7 @@ class Sprite {
       this.position.y,
       this.width,
       this.height
-    )
+    )*/
   }
 
   update() {
@@ -61,3 +61,4 @@ class Sprite {
     }
   }
 }
+export {Sprite}
